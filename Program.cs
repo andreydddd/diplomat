@@ -16,7 +16,7 @@ namespace diplomat
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Bronirovanie());
+            Application.Run(new KomfortClass());
         }
     }
 }

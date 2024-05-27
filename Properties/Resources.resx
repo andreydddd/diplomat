@@ -118,35 +118,182 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="3368x2452_587636_[www.ArtFile.ru]" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3368x2452_587636_[www.ArtFile.ru].jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Снимок экрана 2024-04-16 000027-fotor-202404160241-vmake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок экрана 2024-04-16 000027-fotor-202404160241-vmake.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Снимок экрана 2024-04-16 000027-fotor-202404160241" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Снимок экрана 2024-04-16 000027-fotor-202404160241.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="button_vojti (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_vojti (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Untitled_Export-wIVemeaQ8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Untitled_Export-wIVemeaQ8.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="kuznec" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kuznec.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="button" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pngwing.com (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngwing.com (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="wooden-floor-background" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\wooden-floor-background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="l1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\l1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="папирома" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\папирома.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="кноп" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\кноп.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-лупа-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-лупа-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-направо-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-направо-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="wooden-floor-background1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\wooden-floor-background1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="button_nomer-standart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_nomer-standart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1674431655_gas-kvas-com-p-eskiz-berezi-risunok-41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1674431655_gas-kvas-com-p-eskiz-berezi-risunok-41.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ру" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ру.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_nomer-komfort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_nomer-komfort.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="suzd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\suzd.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="13815123-transformed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\13815123-transformed.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sf" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-налево-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-налево-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-меню-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-меню-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="number3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\number3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_zaregestrirovatsya (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_zaregestrirovatsya (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="l2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\l2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_vojti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_vojti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngwing.com (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngwing.com (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngwing.com (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngwing.com (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-меню-100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-меню-100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Без названия" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Без названия.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="num4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\num4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="free-icon-pictures-6521096" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\free-icon-pictures-6521096.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wooden-floor-background2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wooden-floor-background2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lock-transformed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lock-transformed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="travka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\travka.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glina.Kiev_.-Master-klass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\glina.Kiev_.-Master-klass.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngwing.com (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngwing.com (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gonchar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gonchar.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4e17b35b1e2a605fdfba0f78ae1de4cf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4e17b35b1e2a605fdfba0f78ae1de4cf.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Untitled_Export-wIVemeaQ8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Untitled_Export-wIVemeaQ8.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="num3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\num3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="matreshka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\matreshka.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="number1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\number1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reverse_butt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\reverse_butt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loops" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loops.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_zaregestrirovatsya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_zaregestrirovatsya.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="кноп1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\кноп.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="185931" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\18593.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="l3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\l3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3368x2452_587636_[www.ArtFile1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3368x2452_587636_[www.ArtFile.ru].jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wooden-floor-background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wooden-floor-background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_nomer-lyuks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_nomer-lyuks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="finger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\finger.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_vojti (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_vojti (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="free-icon-square-meter-7374076" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\free-icon-square-meter-7374076.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Шаблоны рамок13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Шаблоны рамок13.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wooden-floor-background1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wooden-floor-background1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prianik" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prianik.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок экрана 2024-04-16 000027-vmake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок экрана 2024-04-16 000027-vmake.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="l4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\l4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-лупа-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-лупа-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="krendel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\krendel.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="папирома" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\папирома.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="okno" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\okno.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,70 +301,40 @@
   <data name="DeWatermark.ai_1713022969383" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DeWatermark.ai_1713022969383.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Снимок экрана 2024-04-16 000027-fotor-202404160241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок экрана 2024-04-16 000027-fotor-202404160241.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="num2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\num2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngwing.com" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngwing.com.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="num1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\num1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="18593" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\18593.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ру" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ру.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Шаблоны рамок13" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Шаблоны рамок13.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="number2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\number2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-меню-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-меню-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="3368x2452_587636_[www.ArtFile.ru]" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3368x2452_587636_[www.ArtFile.ru].jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="wooden-floor-background2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\wooden-floor-background2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="l5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\l5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="krendel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\krendel.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Снимок экрана 2024-04-16 000027-fotor-202404160241-vmake" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Снимок экрана 2024-04-16 000027-fotor-202404160241-vmake.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="prianik" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\prianik.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="galary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\galary.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="button_zabronirovat-nomer" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\button_zabronirovat-nomer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="finger" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\finger.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="matreshka" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\matreshka.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Без названия" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Без названия.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="lock-transformed" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lock-transformed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="кноп" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\кноп.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Снимок экрана 2024-04-16 000027-vmake" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Снимок экрана 2024-04-16 000027-vmake.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="gonchar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gonchar.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="kuznec" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\kuznec.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-меню-100" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-меню-100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1674431655_gas-kvas-com-p-eskiz-berezi-risunok-41" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1674431655_gas-kvas-com-p-eskiz-berezi-risunok-41.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="glina.Kiev_.-Master-klass" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\glina.Kiev_.-Master-klass.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="loops" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\loops.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="4e17b35b1e2a605fdfba0f78ae1de4cf" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\4e17b35b1e2a605fdfba0f78ae1de4cf.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="free-icon-wall-calendar-304519" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\free-icon-wall-calendar-304519.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

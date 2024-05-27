@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -8,10 +9,13 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>diplomat</RootNamespace>
     <AssemblyName>diplomat</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -33,8 +37,50 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="GMap.NET.Core, Version=2.1.7.0, Culture=neutral, PublicKeyToken=b85b9027b614afef, processorArchitecture=MSIL">
+      <HintPath>packages\GMap.NET.Core.2.1.7\lib\net48\GMap.NET.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="GMap.NET.WindowsForms, Version=2.1.7.0, Culture=neutral, PublicKeyToken=b85b9027b614afef, processorArchitecture=MSIL">
+      <HintPath>packages\GMap.NET.WinForms.2.1.7\lib\net48\GMap.NET.WindowsForms.dll</HintPath>
+    </Reference>
+    <Reference Include="GMap.NET.WindowsPresentation, Version=2.1.7.0, Culture=neutral, PublicKeyToken=b85b9027b614afef, processorArchitecture=MSIL">
+      <HintPath>packages\GMap.NET.WinPresentation.2.1.7\lib\net48\GMap.NET.WindowsPresentation.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>packages\Guna.UI2.WinForms.2.0.4.6\lib\net48\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlClient, Version=4.6.1.3, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Data.SqlClient.4.8.3\lib\net461\System.Data.SqlClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite, Version=1.0.115.5, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.115.5, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>packages\System.Data.SQLite.EF6.1.0.115.5\lib\net46\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.115.5, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>packages\System.Data.SQLite.Linq.1.0.115.5\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Security.Principal.Windows, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Principal.Windows.5.0.0\lib\net461\System.Security.Principal.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -58,23 +104,36 @@
     <Compile Include="Bronirovanie.Designer.cs">
       <DependentUpon>Bronirovanie.cs</DependentUpon>
     </Compile>
-    <Compile Include="Fcreate.cs">
+    <Compile Include="Controllers\LuksControll.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controllers\LuksControll.Designer.cs">
+      <DependentUpon>LuksControll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataBases.cs" />
+    <Compile Include="Create.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Fcreate.Designer.cs">
-      <DependentUpon>Fcreate.cs</DependentUpon>
+    <Compile Include="Create.Designer.cs">
+      <DependentUpon>Create.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="Authorization.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Authorization.Designer.cs">
+      <DependentUpon>Authorization.cs</DependentUpon>
     </Compile>
-    <Compile Include="Main.cs">
+    <Compile Include="Info.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Main.Designer.cs">
-      <DependentUpon>Main.cs</DependentUpon>
+    <Compile Include="Info.Designer.cs">
+      <DependentUpon>Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KomfortClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KomfortClass.Designer.cs">
+      <DependentUpon>KomfortClass.cs</DependentUpon>
     </Compile>
     <Compile Include="MasterClass.cs">
       <SubType>Form</SubType>
@@ -82,36 +141,61 @@
     <Compile Include="MasterClass.Designer.cs">
       <DependentUpon>MasterClass.cs</DependentUpon>
     </Compile>
+    <Compile Include="Numbers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numbers.Designer.cs">
+      <DependentUpon>Numbers.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="RoundedButton.cs">
       <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\KomfortControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controllers\KomfortControl.Designer.cs">
+      <DependentUpon>KomfortControl.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Bronirovanie.resx">
       <DependentUpon>Bronirovanie.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Fcreate.resx">
-      <DependentUpon>Fcreate.cs</DependentUpon>
+    <EmbeddedResource Include="Controllers\LuksControll.resx">
+      <DependentUpon>LuksControll.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Create.resx">
+      <DependentUpon>Create.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main.resx">
-      <DependentUpon>Main.cs</DependentUpon>
+    <EmbeddedResource Include="Authorization.resx">
+      <DependentUpon>Authorization.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info.resx">
+      <DependentUpon>Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KomfortClass.resx">
+      <DependentUpon>KomfortClass.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MasterClass.resx">
       <DependentUpon>MasterClass.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Numbers.resx">
+      <DependentUpon>Numbers.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
+    <EmbeddedResource Include="Controllers\KomfortControl.resx">
+      <DependentUpon>KomfortControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -132,16 +216,10 @@
     <None Include="Resources\lock-transformed.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\18593.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\loops.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Без названия.jpeg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\3368x2452_587636_[www.ArtFile.ru].jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Untitled_Export-wIVemeaQ8.jpeg" />
@@ -160,9 +238,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-меню-50.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\кноп.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\button.png" />
@@ -224,5 +299,135 @@
   <ItemGroup>
     <None Include="Resources\4e17b35b1e2a605fdfba0f78ae1de4cf.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\suzd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_vojti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_vojti %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_zaregestrirovatsya.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_zaregestrirovatsya %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3368x2452_587636_[www.ArtFile.ru].jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18593.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\кноп.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_vojti %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reverse_butt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\galary.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_nomer-standart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_nomer-komfort.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_nomer-lyuks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\travka.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-square-meter-7374076.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-налево-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-направо-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\number1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\number2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\number3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\num1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\num2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\num3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\num4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\l1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\l2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\l3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\l4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\l5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-pictures-6521096.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-wall-calendar-304519.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Данный проект ссылается на пакеты NuGet, отсутствующие на этом компьютере. Используйте восстановление пакетов NuGet, чтобы скачать их.  Дополнительную информацию см. по адресу: http://go.microsoft.com/fwlink/?LinkID=322105. Отсутствует следующий файл: {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets'))" />
+  </Target>
+  <Import Project="packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <Import Project="packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
 </Project>
